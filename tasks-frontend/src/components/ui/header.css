@@ -1,0 +1,31 @@
+@import '../../theme.css';
+
+.header__container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid green;
+}
+
+.header__container > h1 {
+    padding-left: 3rem;
+    font-family: var(--font-family);
+}
+
+.header__container > :nth-child(3) {
+    padding-right: 3rem;
+}
+
+.users__button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0.5rem;
+    font-family: var(--font-family);
+    border: 1px solid green;
+    border-radius: 5px;
+}
+
+.users__button:hover {
+    cursor: pointer;
+}
